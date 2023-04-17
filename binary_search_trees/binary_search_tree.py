@@ -184,6 +184,7 @@ class BinarySearchTree:
         
         elif key > subtree.data:
             if subtree.right_child is not None:
+                
                 self._delete(key, subtree.right_child)
 
         else:

@@ -9,6 +9,7 @@ print('BST object: {}'.format(bst)) # bst object
 print('Current root: {}'.format(bst.root)) # empty root
 
 
+
 # Inserts
 print('\n*** Inserting Nodes in Tree ***\n')
 # n = 10
