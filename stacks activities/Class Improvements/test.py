@@ -1,0 +1,42 @@
+from stack import Stack
+
+s = Stack(5)
+print(s)
+s.push("A")
+print(s)
+s.push("B")
+print(s)
+s.push("C")
+print(s)
+s.push("D")
+print(s)
+s.push("E")
+print(s)
+#s.push("F") #STACK OVERFLOW
+#print(s)
+s.pop()
+print(s)
+element_popped = s.peek()
+print(s)
+print("Element peek was: {}".format(element_popped))
+element_popped = s.pop()
+print(s)
+print("Element popped was: {}".format(element_popped))
+s.push("F") 
+print(s)
+'''
+s.pop()
+print(s)
+s.pop()
+print(s)
+s.pop()
+print(s)
+s.pop()
+print(s)
+#s.pop() #STACK UNDERFLOW
+#print(s)
+'''
+
+print('Search A: ', s.search("A"))
+print('Search C: ', s.search("C"))
+print('Search D: ', s.search("D"))
